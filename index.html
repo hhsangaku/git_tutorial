@@ -1,3 +1,26 @@
 <h1>Gitチュートリアル</h1>
 <h2>2024/12/30</h2>
-<p>git status...</p>
+<p>
+	# ワークツリーのファイルをステージに追加する
+	git add
+	git add <fileName | folderName>
+</p>
+<p>
+	# ステージのファイルをリポジトリに追加する
+	git commit
+	
+	# コミット前に差分を表示する
+	git commit -v
+</p>
+<p>
+	# ワークツリーとステージのadd状況, ステージとリポジトリのコミット状況を比較する
+	git status
+</p>
+<p>
+	# ワークツリーとステージのファイル差分を表示
+	git diff
+	git diff <fileName>
+	
+	# ステージとリポジトリのファイル差分を表示
+	git diff --staged
+</p>
