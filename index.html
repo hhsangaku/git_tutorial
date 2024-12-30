@@ -43,6 +43,13 @@
 	git rm＜ファイル名|ディレクトリ名＞<br /><br />
 	
 	# リポジトリからだけ削除したいとき（ローカル環境にはファイルが残る） <br />
-	git rm --cashed
+	git rm --cashed<br /><br />
+	
+	#削除について補足<br />
+	削除コマンド実行時は、削除コマンドが実行されたことがステージに記録される。ステージの内容を反映する場合は、commitを行う<br /><br />
+	
+	#とりあえずの戻し方<br />
+	git reset HEAD index.html<br />
+	git checkout index.html # リポジトリからのチェックアウト
 </p>
 '''
