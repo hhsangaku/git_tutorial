@@ -1,26 +1,41 @@
+'''git
 <h1>Gitチュートリアル</h1>
 <h2>2024/12/30</h2>
 <p>
-	# ワークツリーのファイルをステージに追加する
-	git add
+	# ワークツリーのファイルをステージに追加する<br />
+	git add<br />
 	git add <fileName | folderName>
 </p>
 <p>
-	# ステージのファイルをリポジトリに追加する
-	git commit
+	# ステージのファイルをリポジトリに追加する<br />
+	git commit<br /><br />
 	
-	# コミット前に差分を表示する
+	# コミット前に差分を表示する<br />
 	git commit -v
 </p>
 <p>
-	# ワークツリーとステージのadd状況, ステージとリポジトリのコミット状況を比較する
-	git status
+	# ワークツリーとステージのadd状況, ステージとリポジトリのコミット状況を比較する<br />
+	git status<br />
 </p>
 <p>
-	# ワークツリーとステージのファイル差分を表示
-	git diff
-	git diff <fileName>
+	# ワークツリーとステージのファイル差分を表示<br />
+	git diff<br />
+	git diff <fileName><br /><br />
 	
-	# ステージとリポジトリのファイル差分を表示
+	# ステージとリポジトリのファイル差分を表示<br />
 	git diff --staged
 </p>
+<p>
+	# ログを確認する<br />
+	git log<br /><br />
+	
+	# 1行分で内容表示 <br />
+	git log --oneline<br /><br />
+	
+	# ファイルの変更差分を表示する<br />
+	git log -p <fileName><br /><br />
+	
+	#表示するコミット回数を指定する <br />
+	git log -n <commit回数>
+</p>
+'''
